@@ -1,0 +1,47 @@
+svg{
+    display: block;
+    margin: auto;
+}
+h1,h2{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.dot{
+    stroke:  black;
+}
+#tooltip{
+  
+    background-color: #B1B2FF;
+    border-radius: 15px;
+    padding: 10px;
+    height: 80px;
+    width: 290px;
+    position: absolute;
+    white-space: pre-line;
+    
+  
+}
+#legend{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    list-style-type: square;
+    direction: rtl;
+    font-size: smaller;
+}
+#no-doping::marker{
+    color: orange; 
+}
+#doping::marker{
+    color: #8758FF;
+}
+ul li::marker{
+    font-size:60px;
+    margin: 0;
+    display: inline;
+}
+ul li{
+    margin: -20;
+    padding: 0;
+}
